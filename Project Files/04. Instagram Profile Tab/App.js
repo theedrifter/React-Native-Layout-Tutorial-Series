@@ -9,11 +9,9 @@ export default class App extends React.Component {
       <AppStackNavigator />
     );
   }
-
 }
 
 const AppStackNavigator = StackNavigator({
-
   Main: {
     screen: MainScreen
   }
